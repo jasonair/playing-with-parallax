@@ -1,0 +1,61 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.parallax {
+  background-image: url('media/hero-image.jpg');
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row-1 {
+  height: 600px;
+  background-color: yellow;
+  padding: 50px;
+}
+
+.inner {
+  text-align: center;
+  padding: 120px 18%;
+
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'oleo_scriptbold';
+}
+
+#site-title {
+  background: yellow;
+  padding: 10px 0;
+  border-radius: 10px
+}
+
+#row-1-p {
+
+}
+
+@font-face {
+    font-family: 'oleo_scriptbold';
+    src: url('fonts/oleoscript-bold-webfont.woff2') format('woff2'),
+         url('fonts/oleoscript-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oleo_scriptregular';
+    src: url('fonts/oleoscript-regular-webfont.woff2') format('woff2'),
+         url('fonts/oleoscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#subtitle {
+  font-size: 30px;
+  font-family: 'oleo_scriptregular';
+}
